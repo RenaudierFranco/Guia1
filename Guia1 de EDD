@@ -1,0 +1,229 @@
+using System;
+
+namespace Guia_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //No hay ejercicio 1 por error de impresion, comienza en el 2.
+            //Ejercicio 2
+            Console.WriteLine("--------------------------------");
+            Console.Write("200 + 56 = ");
+            Console.WriteLine(200 + 56);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 3
+            Console.WriteLine("--------------------------------");
+            Console.Write("13 * 12 = ");
+            Console.WriteLine(13 * 12);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 4
+            Console.WriteLine("--------------------------------");
+            Console.Write("321 - 213 = ");
+            Console.WriteLine(321 - 213);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 5
+            Console.WriteLine("--------------------------------");
+            Console.Write("(20 + 5) % 6 = ");
+            Console.WriteLine((20 + 5) % 6);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 6
+            int num1 = 12;
+            int num2 = 102;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("12  * 102 = ");
+            Console.WriteLine(num1 * num2);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 7
+            int nume1 = 200;
+            int nume2 = 1111;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("200 + 1111 = ");
+            Console.WriteLine(nume1 + nume2);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 8
+            int numero1 = 10;
+            int numero2 = 25;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("10 * 25 = ");
+            Console.WriteLine(numero1 * numero2);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 9
+            int numer1, numer2;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("Ingrese un numero: ");
+            numer1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingrese otro numero: ");
+            numer2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("El resultado es: ");
+            Console.WriteLine(numer1 * numer2);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 10
+            int n1;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("Ingrese un numero: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+
+            if (n1 % 2 == 0)
+                Console.WriteLine("El numero es par.");
+            else
+                Console.WriteLine("El numero es impar.");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 11
+            int numeros1, numeros2;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("Ingrese un numero: ");
+            numeros1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingrese otro numero: ");
+            numeros2 = Convert.ToInt32(Console.ReadLine());
+
+            if (numeros1 > numeros2)
+                Console.WriteLine(numeros1 + " es mayor que " + numeros2);
+            else
+                Console.WriteLine(numeros2 + " es mayor que " + numeros1);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 12
+            int nu1, nu2;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("Ingrese un numero: ");
+            nu1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingrese otro numero: ");
+            nu2 = Convert.ToInt32(Console.ReadLine());
+
+            if (nu2 != 0)
+                Console.WriteLine(nu1 / nu2);
+            else
+                Console.WriteLine("Error. No se puede dividir entre 0.");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 13
+            int d1;
+
+            Console.WriteLine("--------------------------------");
+            Console.Write("Ingrese un numero del 1 al 5: ");
+            d1 = Convert.ToChar(Console.ReadLine());
+
+            switch (d1)
+            {
+                case '1':
+                    Console.WriteLine("Uno.");
+                    break;
+
+                case '2':
+                    Console.WriteLine("Dos.");
+                    break;
+
+                case '3':
+                    Console.WriteLine("Tres.");
+                    break;
+
+                case '4':
+                    Console.WriteLine("Cuatro.");
+                    break;
+
+                case '5':
+                    Console.WriteLine("Cinco.");
+                    break;
+            }
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 14
+            int n = 1;
+
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Contador del 1 al 10 con while.");
+            while (n < 11)
+            {
+                Console.WriteLine(n);
+                n = n + 1;
+            }
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 15
+            int contador;
+
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Contador del 1 al 10 con do while.");
+            do
+            {
+                for (contador = 1; contador <= 10; contador++)
+                    Console.WriteLine(contador);
+            }
+            while (contador == 1);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+
+
+
+            //Ejercicio 16
+            int contador2;
+
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Contador del 10 al 20 con for.");
+            for (contador2 = 10; contador2 <= 20; contador2++)
+                Console.WriteLine(contador2);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("");
+        }
+    }
+}
